@@ -1,0 +1,20 @@
+html, body{
+    margin: 0;
+    width: 100%
+}
+body {
+    background: lavenderblush;
+}
+h1{
+    text-align: center;
+    padding-top: 3%;
+}
+#clock{
+    padding-top:  10%;
+    width: 100%;
+    position: absolute;
+    font-size: 600%;
+    color:black;
+    text-align: center;
+
+}
