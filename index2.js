@@ -1,6 +1,6 @@
 function SClock() {
-    var date = new Date;
-
+    var date = new Date; 
+ 
     var hours = date.getHours();
     var minutes = date.getMinutes();
     var seconds = date.getSeconds();
@@ -8,6 +8,6 @@ function SClock() {
     var ampm = (hours < 12) ? "AM" : "PM";
     document.getElementById('TIME').innerHTML =
         hours + " : " + minutes + " : " + seconds + " " + ampm;
-    setTimeout(SClock, 500);
+    setTimeout(SClock, 500);   
 
 }
