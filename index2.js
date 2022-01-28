@@ -1,4 +1,4 @@
-function SClock() {
+function SsClock() {
     var date = new Date; 
  
     var hours = date.getHours();
